@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".fragment.MapFragment"
+>
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+            android:id="@+id/linearSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+        <LinearLayout
+                android:id="@+id/img_address_back_arrow"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+            <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_left_arrow"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/search_rect">
+            <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_search"/>
+            <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                    android:id="@+id/act_search_address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:background="#00000000"
+                    android:maxLines="1"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linearSearch">
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <fragment
+                        android:id="@+id/mapViewAddress"
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                <Button
+                        android:id="@+id/btn_confirm_address"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_gradient_button"
+                        android:text="@string/comfirmaddress"
+                        android:textColor="@color/white"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="50dp"/>
+            </RelativeLayout>
+        </FrameLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

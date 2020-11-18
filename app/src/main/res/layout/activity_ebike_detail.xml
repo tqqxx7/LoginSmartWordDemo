@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp">
+                        <ImageView
+                                android:id="@+id/iv_detail"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:src="@drawable/xedien"
+                                android:scaleType="centerCrop"/>
+
+                        <ImageView
+                                android:id="@+id/iv_back_detail"
+                                android:layout_marginTop="5dp"
+                                android:paddingBottom="5dp"
+                                android:paddingTop="5dp"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:src="@drawable/ic_left_arrow"
+                                android:tint="@color/white"/>
+                    </FrameLayout>
+
+
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="21.7dp"
+                            android:layout_marginRight="21.3dp"
+                            android:orientation="vertical">
+
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15.3dp"
+                                android:fontFamily="@font/sfuitext_semibold"
+                                android:text="@string/information"
+                                android:textColor="@color/black"
+                                android:textSize="13sp" />
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="18dp"
+                                android:orientation="horizontal">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/sf_pro_display_medium"
+                                    android:text="@string/owner"
+                                    android:textColor="@color/graydark"
+                                    android:textSize="14sp" />
+
+                            <TextView
+                                    android:id="@+id/tv_name_detail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:fontFamily="@font/sf_pro_display_medium"
+                                    android:text="Truong Quoc Quan"
+                                    android:textColor="@color/blue"
+                                    android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="15.5dp"
+                                android:background="@color/graylight" />
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="16dp"
+                                android:orientation="horizontal">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/sf_pro_display_medium"
+                                    android:text="@string/brand"
+                                    android:textColor="@color/graydark"
+                                    android:textSize="14sp" />
+
+                            <TextView
+                                    android:id="@+id/tv_brand_detail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:fontFamily="@font/sf_pro_display_medium"
+                                    android:text="Kymco"
+                                    android:textColor="@color/blacklight"
+                                    android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="15.5dp"
+                                android:background="#e2e2e2" />
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="16dp"
+                                android:orientation="horizontal">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/sf_pro_display_medium"
+                                    android:text="@string/price"
+                                    android:textColor="#9398a0"
+                                    android:textSize="14sp" />
+
+                            <TextView
+                                    android:id="@+id/tv_price_detail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:fontFamily="@font/sf_pro_display_medium"
+                                    android:text="50000 d/h"
+                                    android:textColor="@color/blacklight"
+                                    android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="15.5dp"
+                                android:background="@color/graylight" />
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="16dp"
+                                android:orientation="horizontal">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/sf_pro_display_medium"
+                                    android:text="@string/phone"
+                                    android:textColor="@color/graydark"
+                                    android:textSize="14sp" />
+
+                            <TextView
+                                    android:id="@+id/tv_phone_detail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:fontFamily="@font/sf_pro_display_medium"
+                                    android:text="0919238495"
+                                    android:textColor="@color/blacklight"
+                                    android:textSize="14sp" />
+                        </LinearLayout>
+
+
+                        <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="15.5dp"
+                                android:background="@color/graylight" />
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="16dp"
+                                android:orientation="horizontal">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/sf_pro_display_medium"
+                                    android:text="@string/address"
+                                    android:textColor="@color/graydark"
+                                    android:textSize="14sp" />
+
+                            <TextView
+                                    android:id="@+id/tv_address_detail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:fontFamily="@font/sf_pro_display_medium"
+                                    android:text="0919238495"
+                                    android:textColor="@color/blacklight"
+                                    android:textSize="14sp" />
+                        </LinearLayout>
+
+
+
+                        <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="15.5dp"
+                                android:background="@color/graylight" />
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="18dp"
+                                android:orientation="horizontal">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/sf_pro_display_medium"
+                                    android:text="@string/payment"
+                                    android:textColor="@color/graydark"
+                                    android:textSize="14sp" />
+
+                            <TextView
+                                    android:id="@+id/tv_payment_detail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:fontFamily="@font/sf_pro_display_medium"
+                                    android:text="cash, momo"
+                                    android:textColor="@color/green"
+                                    android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                            android:id="@+id/btn_show_on_map_detail"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:textColor="@color/white"
+                            android:background="@drawable/rounded_gradient_button"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/showonmap"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <FrameLayout
+            android:id="@+id/frame_map_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </FrameLayout>
+</RelativeLayout>

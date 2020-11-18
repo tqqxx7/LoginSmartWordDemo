@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+         android:layout_height="55dp"
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+         android:background="@color/white"
+         app:contentInsetStart="0dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:selectableItemBackground"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_alignParentStart="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_left_arrow"
+                android:tint="@color/black"
+                android:id="@+id/img_back_edit_profile"
+        />
+
+        <TextView
+
+                android:gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/editprofile"
+                android:textSize="17.7sp"
+                android:letterSpacing="0.0625"
+                android:textColor="@color/black"
+        />
+
+    </RelativeLayout>
+
+
+
+</Toolbar>

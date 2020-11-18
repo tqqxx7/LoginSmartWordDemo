@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   app:contentInsetStart="0dp"
+                                   android:orientation="horizontal">
+
+
+    <ImageView
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:selectableItemBackground"
+            android:id="@+id/img_back_rating"
+            android:layout_marginLeft="19.2dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_left_arrow"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating"
+            android:layout_gravity="center"
+            android:textSize="17.3sp"
+            android:textColor="#323643"/>
+
+
+
+</Toolbar>

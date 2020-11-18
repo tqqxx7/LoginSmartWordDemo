@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "790160244872",
+    "firebase_url": "https://loginsmartworddemo.firebaseio.com",
+    "project_id": "loginsmartworddemo",
+    "storage_bucket": "loginsmartworddemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790160244872:android:cc14b5479c191588519f3d",
+        "android_client_info": {
+          "package_name": "com.bp.loginsmartworddemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790160244872-9ib5ccn2n8je1ncujunkdn4hmu3lkm2g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bp.loginsmartworddemo",
+            "certificate_hash": "350ecd88370c11aa18f0e08519a915efbe83e48c"
+          }
+        },
+        {
+          "client_id": "790160244872-e7frj1ngi1qf5886bn8fbib09ipuhfqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaLIytlVrP2BaeeYd9pIaDSwaJsk81cgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790160244872-e7frj1ngi1qf5886bn8fbib09ipuhfqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
